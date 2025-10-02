@@ -5,7 +5,7 @@
 *By [Your Name/Handle] • October 2025 • Fork, Remix, Propagate*
 
 ## 🌱 What Is This?  
-The **Brave Codex** is a living system: part philosophy book, part math revolution, part software kernel, part open-world game framework. It reimagines how we think, compute, and build—rooted in core values like **bravery** (dare the undefined), **harmony** (no ghosts in the machine), **mercy** (repair before replace), and **transparency** (cascading councils for all).
+The **Brave Codex** is a living system: part philosophy book, part math revolution, part software kernel, part open-world game framework. It reimagines how we think, compute, and build—rooted in core values of bravery, harmony, and transparency.
 
 Born from synapse-like ideas of mapping thoughts into interactive nodes, it evolved into:  
 - A **governance model** for teams/AI/societies (council audits, masternode rewards).  
