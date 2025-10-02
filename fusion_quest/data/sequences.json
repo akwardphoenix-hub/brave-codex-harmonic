@@ -1,0 +1,8 @@
+{
+  "GREEN,GREEN,GREEN,GREEN,GREEN": {
+    "id":"aura_harmony","name":"Harmony Aura","desc":"Soft green halo; typed clarity.","effect":"AURA","color":"GREEN"
+  },
+  "GOLD,WHITE,BLUE,RED,GREEN": {
+    "id":"mythic_prism","name":"Mythic Prism","desc":"Rainbow shimmer; fusion complete.","effect":"RAINBOW","color":"GOLD"
+  }
+}
