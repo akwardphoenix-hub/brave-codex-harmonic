@@ -1,12 +1,13 @@
 # Changelog
 
 ## v0.2.0 — Harmonic Playground Release
+
 ### Added
-- **Excel Playground (`harmonic_playground.xlsm`)**: Interactive workbook with VBA functions (HADD, HMULT, HOPP, HINV) to demonstrate Harmonic Math concepts (⊘ pause, ↺ opposite, ∥ diverge).
-- **Office Script (`scripts/harmonic_office_script.ts`)**: Lightweight Excel Web automation script showing the same harmonic operations for cross-platform demos.
+- **Excel Playground (`harmonic_playground.xlsm`)**: Interactive workbook with VBA functions (`HADD`, `HMULT`, `HOPP`, `HINV`) to demonstrate Harmonic Math concepts (`⊘ pause`, `↺ opposite`, `∥ diverge`).
+- **Python Playground (`harmonic_playground.py`)**: Lightweight REPL simulation script showing the same harmonic operations for cross-platform demos.
 
 ### Improved
-- Expanded public documentation with a practical example of Harmonic Math.
+- Expanded public documentation with practical examples of Harmonic Math.
 - Set foundation for integration into broader demos, games, and kernel prototypes.
 
 ### Notes
