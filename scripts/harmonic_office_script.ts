@@ -1,0 +1,1 @@
+<TypeScript content goes here>

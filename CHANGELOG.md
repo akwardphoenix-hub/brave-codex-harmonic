@@ -1,11 +1,16 @@
 # Changelog
 
-## [0.2.0] - 2025-10-02
+## v0.2.0 — Harmonic Playground Release
 ### Added
-- CLI `harmonic` with `--add`, `--mul`, `--inv`.
-- Minimal string parser `hre_parser.py`.
-- Tests for add/mul/inverse, diverge/pause behavior.
-- GitHub Actions CI + TestPyPI publish on releases.
+- **Excel Playground (`harmonic_playground.xlsm`)**: Interactive workbook with VBA functions (HADD, HMULT, HOPP, HINV) to demonstrate Harmonic Math concepts (⊘ pause, ↺ opposite, ∥ diverge).
+- **Office Script (`scripts/harmonic_office_script.ts`)**: Lightweight Excel Web automation script showing the same harmonic operations for cross-platform demos.
 
-## [0.1.0] - 2025-10-01
-- Seed release: `HNum` core, docs, architecture diagram.
+### Improved
+- Expanded public documentation with a practical example of Harmonic Math.
+- Set foundation for integration into broader demos, games, and kernel prototypes.
+
+### Notes
+This release introduces the **first end-user facing demo** of Harmonic Math. It’s experimental but designed for teaching, testing, and sparking contributions.
+
+### Next
+Future versions will expand the playground with more harmonic operations, visualizations, and integration with the kernel demo.
