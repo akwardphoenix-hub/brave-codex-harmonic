@@ -1,0 +1,11 @@
+graph TD
+    subgraph Brave Codex Kernel
+        INT_Hook["Legacy INT/API Hook"]
+        Translate["Translate to Harmonic (⊘, ↺, ∥, measure)"]
+        Eval["HRE: Harmonic Runtime Eval (H-Num logic)"]
+        Classify["Classify: Benign/Happy Accident | Cheat/Exploit"]
+        Dispatch["Dispatch: Side-Effect | Isolate/Rewire | Log"]
+        Return["Return: Output to Legacy"]
+    end
+
+    INT_Hook --> Translate --> Eval --> Classify --> Dispatch --> Return
