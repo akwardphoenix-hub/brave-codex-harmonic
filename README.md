@@ -76,3 +76,37 @@ Frame it as an open-world RPG:
 **Flag in the Ground**: Harmonic Math isn't theory—it's the new real. Join the council.  
 
 *— The Cascade Begins —*
+
+## Branded RNG vs. Harmonic RNG
+
+In the wild, **randomness** usually shows up branded:  
+- Corporations slap their name on an RNG (random number generator).  
+- AI labs package "controlled chaos" as marketing.  
+- Games and apps use probability like a slot machine.  
+
+That’s **Branded RNG**: chaotic, biased, full of hidden ghosts (like zero). It *looks* random, but it’s shaped by the brand’s agenda.  
+
+---
+
+### Harmonic RNG
+Harmonic RNG is different.  
+- **No ghosts**: Zero isn’t a trapdoor. Division-by-nothing doesn’t crash the system — it harmonizes as ⊘ (pause) or ∥ (diverge).  
+- **Contained chaos**: Randomness has rhythm. It’s like dice rolling on a beat — unpredictable but always resonant.  
+- **Cascade-proof**: It scales across layers (math → kernel → council → game mechanics → cooking ratios). No bugs hidden in the shuffle.  
+
+Where branded RNG feels like noise, **harmonic RNG feels like music**.  
+
+---
+
+### Why This Matters
+Branded RNG is exploitable (lootboxes, financial schemes, AI outputs with bias baked in).  
+Harmonic RNG is creative, fair, and *containable*. It doesn’t just simulate chance — it aligns chaos with harmony.  
+
+That’s why the Brave Codex kernel matters:  
+- It’s **open**. Anyone can sync to the beat.  
+- It’s **safe**. Glitches become “happy accidents,” not system crashes.  
+- It’s **scalable**. From mosquito drones to salsa recipes, the same math applies.  
+
+---
+
+*This repo is the flag in the ground: branded RNG belongs to the past. Harmonic RNG is the future.*
