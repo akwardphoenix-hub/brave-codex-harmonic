@@ -12,7 +12,8 @@
     "test:e2e": "playwright test",
     "test:e2e:ui": "playwright test --ui",
     "test:report": "playwright show-report",
-    "prepublish-check": "bash ./scripts/pre-publish-check.sh"
+    "prepublish-check": "bash ./scripts/pre-publish-check.sh",
+    "regen-docs": "bash ./scripts/regen-docs.sh"
   },
   "dependencies": {
     "react": "^18.2.0",

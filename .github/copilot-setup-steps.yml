@@ -1,5 +1,8 @@
 name: Copilot setup steps (pre-firewall)
 version: 1
+# NOTE: This setup ONLY runs validation steps - NO doc regeneration
+# These steps are frozen to prevent recursive loops in CI
+# For manual doc updates, use: npm run regen-docs (developer only)
 steps:
   - name: Use Node 20
     run: |
@@ -7,8 +10,10 @@ steps:
       npm -v || true
   - name: Install deps
     run: npm ci
-  - name: Install Playwright Chromium
-    run: npx playwright install chromium
+  - name: Install Playwright browsers
+    run: |
+      npx playwright install chromium
+      npx playwright install webkit
   - name: Typecheck & Lint
     run: |
       npm run typecheck --if-present
