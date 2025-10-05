@@ -1,4 +1,5 @@
 import { test, expect } from '@playwright/test';
+import './playwright.setup';
 
 test('app loads and shows proposals', async ({ page }) => {
   await page.goto('/');

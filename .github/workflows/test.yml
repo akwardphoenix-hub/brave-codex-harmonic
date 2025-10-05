@@ -1,16 +1,29 @@
-name: E2E
+name: E2E Tests
 on:
-  pull_request:
   push:
     branches: [ main ]
+  pull_request:
 jobs:
   e2e:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
-        with: { node-version: 20 }
+        with:
+          node-version: 20
+          cache: 'npm'
       - run: npm ci
-      - run: npx playwright install --with-deps chromium
+      # Install browser binaries only (no apt, no --with-deps)
+      - run: npx playwright install chromium
+      - run: npx playwright install webkit
+      # Build once (matches what copilot-setup-steps did locally)
       - run: npm run build
-      - run: npm run test:e2e
+      # Run tests against vite preview on dist
+      - run: npx playwright test
+      - name: Upload HTML report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-report
+          path: playwright-report

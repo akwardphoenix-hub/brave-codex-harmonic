@@ -6,6 +6,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview --strictPort --port 4173",
+    "preview:ci": "vite preview --strictPort --port 4173",
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "lint": "eslint . --ext .ts,.tsx --max-warnings=0",
     "test:e2e": "playwright test",
