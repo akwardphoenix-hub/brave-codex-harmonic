@@ -31,3 +31,7 @@ dist-ssr/
 playwright-report/
 test-results/
 playwright/.cache/
+
+# Test Coverage
+coverage/
+.nyc_output/

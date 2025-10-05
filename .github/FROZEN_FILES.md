@@ -41,10 +41,12 @@ To prevent recursive regeneration loops in CI/CD, the following files are **froz
 
 If documentation needs to be regenerated or updated:
 
-1. **Manual only**: Use `npm run regen-docs`
+1. **Manual only**: Use `npm run regen-docs` (requires interactive confirmation)
 2. **Review changes**: Check git diff before committing
 3. **Commit separately**: Doc updates separate from code changes
 4. **Avoid during CI**: Never in automated workflows
+
+**Note**: Manual regeneration is allowed ONLY via `npm run regen-docs`. This command requires interactive confirmation and is never run automatically in CI.
 
 ## Preventing Loops
 
