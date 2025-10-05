@@ -19,4 +19,15 @@ Thumbs.db
 
 # Environment
 .env
-.
+
+# Node/TypeScript
+node_modules/
+dist/
+dist-ssr/
+*.local
+.cache/
+
+# Playwright
+playwright-report/
+test-results/
+playwright/.cache/

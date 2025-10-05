@@ -1,0 +1,21 @@
+name: Copilot setup steps (pre-firewall)
+version: 1
+steps:
+  - name: Use Node 20
+    run: |
+      node -v || true
+      npm -v || true
+  - name: Install deps
+    run: npm ci
+  - name: Install Playwright Chromium
+    run: npx playwright install chromium
+  - name: Typecheck & Lint
+    run: |
+      npm run typecheck --if-present
+      npm run lint --if-present
+  - name: Build
+    run: npm run build
+  - name: Smoke preview
+    run: |
+      (npm run preview &) && sleep 2
+      curl -sSf http://localhost:4173 > /dev/null

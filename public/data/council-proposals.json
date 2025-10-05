@@ -1,0 +1,16 @@
+[
+  {
+    "id": "p-001",
+    "title": "Adopt Harmonic Kernel for zero/diverge handling",
+    "description": "Replace brittle zero/NaN with ⊘/∥ flags and audit.",
+    "createdAt": "2025-10-03T13:00:00Z",
+    "votingEndsAt": "2025-10-10T23:59:59Z"
+  },
+  {
+    "id": "p-002",
+    "title": "Enable Masternode Council E2E tests",
+    "description": "Lock tests to local fixtures; no remote network.",
+    "createdAt": "2025-10-04T09:00:00Z",
+    "votingEndsAt": "2025-10-11T23:59:59Z"
+  }
+]

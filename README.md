@@ -4,6 +4,16 @@
 *Public Domain • Open Cascade • Built for Bravery, Harmony, and Fix-It-First*  
 *By [Your Name/Handle] • October 2025 • Fork, Remix, Propagate*
 
+## Offline Dev / Tests
+- This repo is configured for **offline-first** development.
+- All data loads from `/public/data/*.json`.
+- To run:
+  - `npm ci`
+  - `npx playwright install chromium`
+  - `npm run build && npm run test:e2e`
+
+If you see firewall blocks (esm.ubuntu.com, api.github.com), that's expected in the agent sandbox. The **copilot-setup-steps** pre-installs what it needs before firewall rules apply.
+
 ## 🌱 What Is This?  
 The **Brave Codex** is a living system: part philosophy book, part math revolution, part software kernel, part open-world game framework. It reimagines how we think, compute, and build—rooted in core values of bravery, harmony, and transparency.
 
